@@ -34,7 +34,7 @@ args = parser.parse_args()
 
 import os,sys
 sys.path.append(os.getcwd()) # import src
-sys.path.append(args.path_eg3d_repo) # import eg3d files
+sys.path.append(f"{args.path_eg3d_repo}/eg3d") # import eg3d files
 from camera_utils import LookAtPoseSampler, FOV_to_intrinsics
 
 import pickle
