@@ -24,6 +24,10 @@ python train.py --path_eg3d_repo <path_eg3d_repo>  --path_eg3d_checkpoint <path_
                 --FR_system ElasticFace   --FR_loss  ArcFace  --path_ffhq_dataset <path_ffhq_dataset>  \
 ```
 
+## Pre-trained models (GaFaR Mapping Network)
+[Checkpoints](https://www.idiap.ch/paper/gafar/static/files/checkpoints.zip) of trained models of the mapping network for whitebox and blackbox attacks are available in the [project page](https://www.idiap.ch/paper/gafar/).
+
+
 ## Evaluation
 For evaluation script and also access to the dataset of presentation attack using the reconstructed face images, please check the [project page](https://www.idiap.ch/paper/gafar/).
 
