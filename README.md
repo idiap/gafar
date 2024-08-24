@@ -16,7 +16,7 @@ We use [EG3D](https://github.com/NVlabs/eg3d) as a pretrained face generator net
 ```sh
 $ git clone https://github.com/NVlabs/eg3d.git
 ```
-We use `ffhq512-128.pkl` [checkpoint](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/research/models/eg3d/files) in our experiments.
+We use `ffhqrebalanced512-128.pkl` [checkpoint](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/research/models/eg3d/files) in our experiments.
 
 To train the face reconstruction model, you can use `train.py`. For example, for blackbox attack against `ElasticFace` using `ArcFace` in loss function, you can use the following commands:
 ```sh

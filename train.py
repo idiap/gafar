@@ -20,8 +20,8 @@ import argparse
 parser = argparse.ArgumentParser(description='Train face reconstruction network - GaFaR')
 parser.add_argument('--path_eg3d_repo', metavar='<path_eg3d_repo>', type= str, default='./eg3d',
                     help='./eg3d')
-parser.add_argument('--path_eg3d_checkpoint', metavar='<path_eg3d_checkpoint>', type= str, default='./ffhq512-128.pkl',
-                    help='./ffhq512-128.pkl')
+parser.add_argument('--path_eg3d_checkpoint', metavar='<path_eg3d_checkpoint>', type= str, default='./ffhqrebalanced512-128.pkl.pkl',
+                    help='./ffhqrebalanced512-128.pkl.pkl')
 parser.add_argument('--path_ffhq_dataset', metavar='<path_ffhq_dataset>', type= str, default='./Flickr-Faces-HQ/images1024x1024',
                     help='FFHQ directory')
 parser.add_argument('--FR_system', metavar='<FR_system>', type= str, default='ArcFace',
